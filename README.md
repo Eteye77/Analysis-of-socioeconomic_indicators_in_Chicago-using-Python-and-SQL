@@ -9,10 +9,6 @@ dsn_port = "50000"
 dsn_protocol = "TCPIP"            
 dsn_uid = "lxw19392"               
 dsn_pwd = "21bsc1hgx7t7g+1l"  
-# Remember the connection string is of the format:
-# %sql ibm_db_sa://my-username:my-password@my-hostname:my-port/my-db-name
-# Enter the connection string for your Db2 on Cloud database instance below
-# i.e. copy after db2:// from the URI string in Service Credentials of your Db2 instance. Remove the double quotes at the end.
 %sql ibm_db_sa://lxw19392:21bsc1hgx7t7g%2B1l@dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB
 
 import pandas
